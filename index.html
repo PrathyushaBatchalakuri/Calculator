@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Calculator PB</title>
+  <link rel="Icon" href="icon.ico">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  <!-- cssStyle -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <p></p>
+  <div class="container">
+    <h2>Calculator</h2>
+    <div class="calculator">
+      <input type="text" id="Result" readonly>
+      <table>
+        <tr>
+          <td><button type="button" class="btn num 1" value="Hi">1</button></td>
+          <td><button type="button" class="btn num 2 ">2</button></td>
+          <td><button type="button" class="btn num 3 ">3</button></td>
+          <td><button type="button" class="btn sym ">+</button></td>
+        </tr>
+        <tr>
+          <td><button type="button" class="btn num 4 ">4</button></td>
+          <td><button type="button" class="btn num 5 ">5</button></td>
+          <td><button type="button" class="btn num 6 ">6</button></td>
+          <td><button type="button" class="btn sym ">-</button></td>
+        </tr>
+        <tr>
+          <td><button type="button" class="btn num 7 ">7</button></td>
+          <td><button type="button" class="btn num 8 ">8</button></td>
+          <td><button type="button" class="btn num 9 ">9</button></td>
+          <td><button type="button" class="btn sym ">*</button></td>
+        </tr>
+        <tr>
+          <td><button type="button" class="btn num 0 ">0</button></td>
+          <td><button type="button" class="btn num bot ">.</button></td>
+          <td><button type="button" class="btn clear C ">C</button></td>
+          <td><button type="button" class="btn sym ">/</button></td>
+        </tr>
+      </table>
+      <table>
+        <td><button type="button" class="btn equals ">=</button></td>
+        <td><button type="button" class="btn sym last">%</button></td>
+      </table>
+    </div>
+    <div class="footer">
+      <hr class="bg-danger border-2 border-top border-warning">
+      <p>© Copyrighted & Sourced by <strong>Prathyusha Batchalakuri</strong>, 2022.</p>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="index1.js" charset="utf-8"></script>
+</body>
+</html>
